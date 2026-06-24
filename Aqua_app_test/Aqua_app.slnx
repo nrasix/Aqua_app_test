@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../Aqua.DataAccess/Aqua.DataAccess.csproj" Id="438e69be-32f5-4b0d-b058-34b1ac371e0a" />
+  <Project Path="../Core/Aqua.Core.csproj" Id="6c60f08b-2563-4bd8-9adc-ea94361d4cc9" />
+  <Project Path="Aqua.App.csproj" />
+</Solution>

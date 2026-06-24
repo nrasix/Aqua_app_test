@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Aqua.Core.csproj" />
+	<PackageReference Include="FluentNHibernate" Version="3.4.1" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.9" />
+	<PackageReference Include="MySql.Data" Version="9.7.0" />
+	<PackageReference Include="MySqlConnector" Version="2.6.0" />
+	<PackageReference Include="NHibernate.Driver.MySqlConnector" Version="2.0.5" />
+  </ItemGroup>
+
+</Project>
